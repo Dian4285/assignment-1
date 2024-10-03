@@ -23,13 +23,24 @@
 
   <main>
     <b>Please Fill Out This Form To Contact Me!</b>
+    <section>
+      <form action="/submit" method="POST">
+        <label for="name">Name: </label>
+        <Input type="text" id="name" required></BR>
+        <label for="email">Email: </label>
+        <Input type="email" id="email" required></BR>
+        <label for="message">Message: </label>
+        <Input for="message" id="message" required></BR>
+        <label for="cell">Cell #: </label>
+        <Input type="number" id="cell" max="10"required></Br>
+        <button type="submit">Submit</button>
+      </form>
   </main>
 
   <footer>
     <p>&copy; 2024 By Dian</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 
 </html>
