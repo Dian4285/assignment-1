@@ -4,7 +4,7 @@ html {
 }
 body {
   font-family: "courier new", monospace;
-  background-color: #9857E5;
+  background-color: #E1F2A5;
 }
 header {
   top: 0;
@@ -16,7 +16,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: linear-gradient(90deg, #91E66E, #E657CA);
+  background: linear-gradient(90deg, #C1C8A9, #697347);
   text-align: center;
 }
 nav li {
@@ -32,9 +32,9 @@ footer {
   text-align: left;
 }
 form {
-  border: 1px solid #65E681;
+  border: 1px solid #697347;
   padding: 100px;
-  background: linear-gradient(to bottom, #C657E6, #91E66E);
+  background: linear-gradient(to bottom, #697347, #A4AB8A);
   max-width: 400px;
   margin: 0 auto;
 }
